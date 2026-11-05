@@ -3,50 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Organization Name - Empowering Women & Equal Rights</title>
+    <title>[Organization Name] - Empowering Women & Advocating Equal Rights</title>
     <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <!-- TOP NAVIGATION BAR -->
-    <header class="top-bar">
+    <header class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="logo-container">
-                <img src="placeholder-logo.png" alt="Organization Logo" class="logo">
-                <span class="org-name">[Organization Name]</span>
+            <a href="index.html" class="logo">
+                <img src="placeholder-logo.png" alt="[Organization Name] Logo">
+                <span>[Organization Name]</span>
             </a>
 
-            <nav class="main-nav">
-                <ul>
+            <nav>
+                <ul class="nav-links">
+                    <!-- Home Page -->
                     <li class="dropdown">
-                        <a href="index.html" class="active">Home</a>
+                        <a href="index.html" class="active">Home <i class="fa-solid =>-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#projects">Current Initiatives</a></li>
-                            <li><a href="#projects">Past Impact</a></li>
+                            <li><a href="index.html#mission">Our Mission</a></li>
+                            <li><a href="index.html#impact">Our Impact</a></li>
+                            <li><a href="index.html#featured">Featured Work</a></li>
                         </ul>
                     </li>
+
+                    <!-- About Page -->
                     <li class="dropdown">
-                        <a href="about.html">About</a>
+                        <a href="about.html">About <i class="fa-solid fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="about.html#mission">Our Mission & Vision</a></li>
+                            <li><a href="about.html#story">Our Story</a></li>
                             <li><a href="about.html#team">Leadership & Team</a></li>
-                            <li><a href="about.html#history">Our Journey</a></li>
+                            <li><a href="about.html#partners">Partners & Sponsors</a></li>
                         </ul>
                     </li>
+
+                    <!-- Article Page -->
                     <li class="dropdown">
-                        <a href="article.html">Article</a>
+                        <a href="article.html">Article <i class="fa-solid fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
+                            <li><a href="article.html#news">Latest News</a></li>
                             <li><a href="article.html#advocacy">Advocacy Papers</a></li>
                             <li><a href="article.html#stories">Impact Stories</a></li>
-                            <li><a href="article.html#news">Press Releases</a></li>
                         </ul>
                     </li>
+
+                    <!-- Media Page -->
                     <li class="dropdown">
-                        <a href="media.html">Media</a>
+                        <a href="media.html">Media <i class="fa-solid fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="media.html#gallery">Photo Gallery</a></li>
                             <li><a href="media.html#videos">Video Documentation</a></li>
-                            <li><a href="media.html#campaigns">Campaign Materials</a></li>
+                            <li><a href="media.html#press">Press Kit</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -54,8 +64,124 @@
         </div>
     </header>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>[Main Hero Headline Header]</h1>
-            <p>[Insert brief organization mission statement or core message
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="badge">[ Placeholder Tagline / Subtitle ]</span>
+                <h1>[ Main Headline Heading Placeholder ]</h1>
+                <p>[ Insert brief 2-3 sentence organization mission statement placeholder here. ]</p>
+                <div class="hero-actions">
+                    <a href="about.html" class="btn btn-primary">[ Learn More ]</a>
+                    <a href="article.html" class="btn btn-secondary">[ Read Articles ]</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- IMPACT METRICS -->
+        <section class="impact-bar">
+            <div class="container impact-grid">
+                <div class="impact-item">
+                    <h3>[ 00+ ]</h3>
+                    <p>[ Metric Label 1 ]</p>
+                </div>
+                <div class="impact-item">
+                    <h3>[ 00+ ]</h3>
+                    <p>[ Metric Label 2 ]</p>
+                </div>
+                <div class="impact-item">
+                    <h3>[ 00+ ]</h3>
+                    <p>[ Metric Label 3 ]</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED PROJECTS / DOCUMENTATION -->
+        <section id="featured" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>[ Past Projects & Key Initiatives ]</h2>
+                    <p>[ Subheading explaining past initiatives and outreach programs placeholder. ]</p>
+                </div>
+
+                <div class="card-grid">
+                    <!-- Project Card 1 -->
+                    <article class="card">
+                        <div class="card-image">
+                            <div class="img-placeholder">[ Project Image Placeholder ]</div>
+                        </div>
+                        <div class="card-body">
+                            <span class="card-tag">[ Category Tag ]</span>
+                            <h3>[ Project Title Placeholder 1 ]</h3>
+                            <p>[ Brief summary of project goals, outcomes, and event documentation placeholder. ]</p>
+                            <a href="media.html" class="card-link">View Documentation &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="card">
+                        <div class="card-image">
+                            <div class="img-placeholder">[ Project Image Placeholder ]</div>
+                        </div>
+                        <div class="card-body">
+                            <span class="card-tag">[ Category Tag ]</span>
+                            <h3>[ Project Title Placeholder 2 ]</h3>
+                            <p>[ Brief summary of project goals, outcomes, and event documentation placeholder. ]</p>
+                            <a href="media.html" class="card-link">View Documentation &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="card">
+                        <div class="card-image">
+                            <div class="img-placeholder">[ Project Image Placeholder ]</div>
+                        </div>
+                        <div class="card-body">
+                            <span class="card-tag">[ Category Tag ]</span>
+                            <h3>[ Project Title Placeholder 3 ]</h3>
+                            <p>[ Brief summary of project goals, outcomes, and event documentation placeholder. ]</p>
+                            <a href="media.html" class="card-link">View Documentation &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER WITH CONTACTS & SOCIALS -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3>[ Organization Name ]</h3>
+                <p>[ Short closing statement or vision statement placeholder. ]</p>
+            </div>
+
+            <div class="footer-nav">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="article.html">Articles</a></li>
+                    <li><a href="media.html">Media Gallery</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@organization.org">contact@organization.org</a></p>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="mailto:contact@organization.org" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 [Organization Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
