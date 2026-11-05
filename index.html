@@ -3,27 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Website</title>
+    <title>Girl Up | Advancing Gender Equality & Youth Leadership</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for Professional Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="about.html">About</a>
-            <a href="article.html">Article</a>
-            <a href="media.html">Media</a>
-        </nav>
+
+    <!-- TOP NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <!-- Replace logo-placeholder.png with your logo file -->
+                <img src="logo-placeholder.png" alt="Girl Up Logo" class="logo-img">
+                <span class="logo-text">GIRL UP</span>
+            </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    
+                    <li class="dropdown">
+                        <a href="about.html" class="dropbtn">About &#9662;</a>
+                        <ul class="dropdown-content">
+                            <li><a href="about.html#mission">Our Mission</a></li>
+                            <li><a href="about.html#team">Executive Board</a></li>
+                            <li><a href="about.html#partners">Partners & Sponsors</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="article.html" class="dropbtn">Article &#9662;</a>
+                        <ul class="dropdown-content">
+                            <li><a href="article.html#blogs">Member Stories</a></li>
+                            <li><a href="article.html#advocacy">Advocacy Guides</a></li>
+                            <li><a href="article.html#reports">Annual Reports</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="media.html" class="dropbtn">Media &#9662;</a>
+                        <ul class="dropdown-content">
+                            <li><a href="media.html#gallery">Photo Gallery</a></li>
+                            <li><a href="media.html#campaigns">Campaign Videos</a></li>
+                            <li><a href="media.html#press">Press Releases</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <a href="#join" class="btn btn-primary nav-cta">Get Involved</a>
+        </div>
     </header>
 
-    <main class="container">
-        <h1>Welcome to My Website!</h1>
-        <p>This is my personal corner of the internet, built completely from scratch.</p>
-        <button id="greetBtn">Click Me for a Surprise!</button>
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="badge">Youth-Led Movement</span>
+                <h1>Empowering Young Leaders for Gender Equality</h1>
+                <p>We unite, train, and guide girls and gender-equality advocates to lead change in their communities and break barriers worldwide.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore Our Projects</a>
+                    <a href="about.html" class="btn btn-secondary">Learn Our Mission</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- IMPACT METRICS -->
+        <section class="impact-section">
+            <div class="section-container">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <h3>500+</h3>
+                        <p>Community Members</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>12+</h3>
+                        <p>Workshops & Campaigns</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>$5K+</h3>
+                        <p>Raised for Women's Health</p>
+                    </div>
+                    <div class="metric-card">
+                        <h3>100%</h3>
+                        <p>Youth-Led Initiatives</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAST PROJECTS & DOCUMENTATION -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2>Our Impact & Past Initiatives</h2>
+                    <p>A look into the programs, workshops, and advocacy drives organized by our club.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <article class="project-card">
+                        <div class="project-img-wrapper">
+                            <div class="img-placeholder">Project Photo</div>
+                        </div>
+                        <div class="project-body">
+                            <span class="category">Education & Skills</span>
+                            <h3>STEM Empowerment Workshop</h3>
+                            <p>An interactive session mentoring high school girls in coding, engineering, and leadership skills to close the tech gender gap.</p>
+                            <a href="article.html#stem-workshop" class="read-more">Read Project Report &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card">
+                        <div class="project-img-wrapper">
+                            <div class="img-placeholder">Project Photo</div>
+                        </div>
+                        <div class="project-body">
+                            <span class="category">Advocacy Drive</span>
+                            <h3>Period Equity Campaign</h3>
+                            <p>Community donation drive and educational outreach addressing menstrual hygiene awareness and combating period poverty locally.</p>
+                            <a href="article.html#period-equity" class="read-more">Read Project Report &rarr;</a>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card">
+                        <div class="project-img-wrapper">
+                            <div class="img-placeholder">Project Photo</div>
+                        </div>
+                        <div class="project-body">
+                            <span class="category">Leadership</span>
+                            <h3>Annual Gender Equality Summit</h3>
+                            <p>Bringing together guest speakers, student panelists, and activists to discuss equal rights policy and community action.</p>
+                            <a href="article.html#summit-2026" class="read-more">Read Project Report &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 My Website</p>
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">GIRL UP</span>
+                <p>Advancing gender equality and empowering young leaders to take action.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="article.html">Articles</a>
+                <a href="media.html">Media</a>
+            </div>
+            <div class="footer-socials">
+                <h4>Connect With Us</h4>
+                <p>Follow our official channels for real-time updates on upcoming initiatives.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Girl Up Organization. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
